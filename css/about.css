@@ -1,0 +1,291 @@
+/* About Css Start Here */
+.about_page {
+    padding: 120px 0 80px;
+  }
+  .about_page .nft-slider {
+    text-align: center;
+  }
+  .about_page .nft-slider figure {
+    padding: 0 23%;
+  }
+  .about_page .content-wrapper {
+    color: #fff;
+    position: relative;
+  }
+  .about_page .content-wrapper .heading-wrapper {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .about_page .content-wrapper .heading-wrapper h2 {
+    font-size: 90px;
+    line-height: 60px;
+  }
+  .about_page .content-wrapper .heading-wrapper h2 {
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .about_page .content-wrapper .heading-wrapper h4 {
+    margin: 0;
+    color: #f9f928;
+    z-index: 2;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+  }
+  .about_page .content-wrapper p {
+    font-size: 14px;
+    color: #ffffffc7;
+  }
+  .about_page .content-wrapper .glowing {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .about_page .content-wrapper .glowing span {
+    filter: blur(40px);
+    width: 140px;
+    height: 130px;
+  }
+  .about_page .left-box {
+    position: relative;
+  }
+  .about_page .glowing {
+    position: absolute;
+  }
+  .about_page .glowing-one {
+    right: 15%;
+    top: 0%;
+    z-index: -1;
+  }
+  .about_page .glowing-two {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+  }
+  .about_page .glowing-three {
+    right: 20%;
+    bottom: 0;
+  }
+  .about_page .left-box .glowing span {
+    filter: blur(50px);
+    width: 100px;
+    height: 100px;
+  }
+  @media (max-width: 1100px) {
+    .about_page .content-wrapper .heading-wrapper h2 {
+      font-size: 80px;
+      line-height: 60px;
+    }
+    .about_page .nft-slider {
+      text-align: center;
+      margin: 0 10%;
+    }
+  }
+  @media (max-width: 575px) {
+    .about_page {
+      padding: 80px 0 60px;
+    }
+    .about_page .nft-slider {
+      margin-left: 0px;
+      margin-right: 0;
+      padding: 0 45px;
+    }
+    .about_page .content-wrapper .heading-wrapper h2 {
+      font-size: 60px;
+      line-height: 50px;
+    }
+    .about_page .content-wrapper p {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .about_page .glowing {
+      display: none;
+    }
+  }
+  /* About Css End Here */
+  
+  /* Benefit Sec Css Start Here */
+  .brand_sec {
+    padding: 60px 0 130px;
+  }
+  .benefits_sec .benefit_box {
+    background: url("../img/about-benefit.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .benefits_sec .content-wrapper .heading-wrapper h2 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+  .benefits_sec .content-wrapper p {
+    margin-bottom: 40px;
+  }
+  .benefits_sec .benefit_box {
+    padding: 45px 0 85px;
+  }
+  .benefits_sec .content-wrapper ul.points li img {
+    margin-right: 6px;
+    margin-top: -2px;
+  }
+  @media (max-width: 1350px) {
+    .benefits_sec .content-wrapper .heading-wrapper h2 {
+      font-size: 42px;
+      line-height: 41px;
+    }
+    .benefits_sec .content-wrapper ul.points li img {
+      margin-top: -3px;
+    }
+    .benefits_sec .content-wrapper ul.points li {
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 575px) {
+    .benefits_sec .benefit_box {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+        url("../img/about-benefit.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .benefits_sec .benefit_box {
+      padding: 45px 15px 85px;
+    }
+  }
+  /* Benefit Sec Css End Here */
+  
+  /* Brands Sec Css Start Here */
+  .brand_sec {
+    background: #000;
+    padding: 60px 0 200px;
+  }
+  .brand_sec .heading-wrapper {
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .brand_sec .heading-wrapper .glowing {
+    position: absolute;
+    left: 23%;
+    top: 0px;
+  }
+  .brand_sec .heading-wrapper .glowing span {
+    filter: blur(35px);
+  }
+  .brand_sec .heading-wrapper h4 {
+    margin: 0;
+    line-height: 20px;
+    color: #f9f928;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  .brand_sec .heading-wrapper h2 {
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 60px;
+    font-size: 60px;
+  }
+  .brand_sec .heading-wrapper h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Squada";
+    margin-bottom: 15px;
+  }
+  .brand_sec .heading-wrapper p {
+    color: #ffffffbf;
+    font-size: 14px;
+  }
+  @media (max-width: 575px) {
+    .brand_sec {
+      background: #000;
+      padding: 30px 0 10px;
+    }
+    .brand_sec .heading-wrapper {
+      padding-bottom: 20px;
+    }
+    .brand_sec .heading-wrapper h2 {
+      line-height: 50px;
+      font-size: 50px;
+    }
+    .brand_sec .heading-wrapper h3 {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    .brand_sec .heading-wrapper .glowing {
+      display: none;
+    }
+  }
+  /* Brands Sec Css End Here */
+  
+  /* Community Sec Css Start Here */
+  .community_sec {
+    padding: 30px 0;
+  }
+  .community_sec .community-box {
+    border: 1px solid #ffffff3b;
+  }
+  .community_sec .community_box {
+    display: flex;
+    align-items: flex-start;
+    background-image: url("../img/community-back.png");
+    background-size: cover;
+    padding: 40px 30px;
+  }
+  .community_sec .general_community {
+    margin-left: 10px;
+  }
+  .community_sec .exclusive_community {
+    margin-right: 10px;
+  }
+  .community_sec .community_box .icon-box img {
+    width: 230px;
+  }
+  .community_sec .community_box .icon-box {
+    margin-right: 25px;
+  }
+  .community_sec .community_box .txt h3 {
+    font-family: "Squada";
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .community_sec .community_box .txt p {
+    font-size: 13px;
+    color: #ffffffd1;
+  }
+  .brand_sec {
+    background: #000;
+    padding: 40px 0;
+    color: #fff;
+}
+section.about_page {
+    color: #fff;
+}
+  /* Community Sec Css End Here */
+  @media (max-width: 991px) {
+    .benefits_sec .benefit_box {
+      padding: 45px 20px 85px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/about-benefit.png");
+    }
+    .benefits_sec .hat-circle {
+      left: 50px;
+      top: -50px;
+    }
+  }
+  @media (max-width: 575px) {
+    .benefits_sec .content-wrapper .heading-wrapper h2 {
+      font-size: 28px;
+      line-height: 37px;
+    }
+    .benefits_sec .hat-circle {
+      left: 10px;
+      top: -50px;
+    }
+    .benefits_sec .benefit_box {
+      padding: 45px 20px 30px;
+    }
+  }
+  

@@ -1,0 +1,137 @@
+/* Explore Css Start Here */
+.nft_collections {
+    padding: 120px 0 200px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .nft_collections .glowing-left {
+    position: absolute;
+    left: -5%;
+    z-index: 9;
+    top: 12%;
+  }
+  .nft_collections .glowing-right {
+    position: absolute;
+    right: 0%;
+    z-index: 9;
+    top: 4%;
+  }
+  .nft_collections .glowing-left span {
+    filter: blur(30px);
+    width: 190px;
+    height: 190px;
+  }
+  .nft_collections .glowing-right span {
+    filter: blur(30px);
+    width: 190px;
+    height: 190px;
+  }
+  .nft_collections .heading-wrapper {
+    text-align: center;
+  }
+  .nft_collections nav {
+    padding-bottom: 60px;
+  }
+  .nft_collections nav .nav-tabs {
+    justify-content: center;
+    border: 0;
+    margin-top: 35px;
+  }
+  .nft_collections .heading-wrapper h4 {
+    font-size: 16px;
+    color: #f9f928;
+    letter-spacing: 4px;
+    margin: 0px;
+  }
+  .nft_collections .heading-wrapper h2 {
+    color: #ffffff;
+    line-height: 60px;
+  }
+  .nft_collections .heading-wrapper p {
+    color: #ffffffd9;
+    font-size: 14px;
+  }
+  .nft_collections button.nav-link {
+    background: url("../img/nav-back.png");
+    background-size: cover;
+  }
+  .nft_collections button.nav-link {
+    border: 2px solid #3418fc !important;
+    border-radius: 0;
+    padding: 5px 50px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Squada";
+  }
+  .nft_collections button.nav-link:first-child {
+    border-radius: 18px 0px 0px 18px;
+  }
+  .nft_collections button.nav-link:last-child {
+    border-radius: 0px 18px 18px 0px;
+  }
+  .nft_collections button.nav-link.active {
+    background: #3418fc;
+    color: #fff;
+  }
+  .nft-box {
+    margin-bottom: 60px;
+  }
+  .nft_collections .row .glowing-one {
+    position: absolute;
+    right: -2%;
+    top: 30%;
+  }
+  .nft_collections .row .glowing-two {
+    right: 21%;
+    bottom: 0px;
+  }
+  .nft_collections .row .glowing-three {
+    bottom: 0px;
+  }
+  ul.paginations {
+    padding: 0;
+    margin: 40px 0 0;
+    list-style: none;
+    text-align: center;
+  }
+  ul.paginations li {
+    display: inline-block;
+  }
+  ul.paginations li a {
+    background: url("../img/pagi-back.png");
+    width: 40px;
+    display: block;
+    height: 40px;
+    line-height: 35px;
+    border-radius: 5px;
+    margin: 0 3px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+  }
+  ul.paginations li a.active {
+    border-color: #3418fc;
+    background: #3418fc;
+  }
+  @media (max-width: 575px) {
+    .nft_collections {
+      padding: 80px 0 60px;
+    }
+    .nft-box {
+      margin-bottom: 20px;
+    }
+    .nft_collections .heading-wrapper h2 {
+      line-height: 40px;
+      font-size: 40px;
+    }
+    .nft_collections button.nav-link {
+      width: 100%;
+      border-radius: 0 !important;
+      margin-bottom: 10px;
+    }
+  }
+  /* Explore Css End Here */
+  

@@ -1,0 +1,214 @@
+/* Roadmap Css Start Here */
+.road_map {
+    padding: 10rem 0px;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .glowing {
+    z-index: 3;
+  }
+  .glowing-one {
+    position: absolute;
+    left: 0;
+  }
+  .road_map .glowing-one span {
+    filter: blur(20px);
+    width: 130px;
+    height: 140px;
+    left: -40px;
+  }
+  .road_map .heading_wrapper {
+    text-align: center;
+    max-width: 80%;
+    margin: 0px auto 60px;
+  }
+  .road_map .heading_wrapper h4 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #f9f928;
+    letter-spacing: 3px;
+  }
+  .road_map .heading_wrapper h2 {
+    color: #fff;
+    line-height: 65px;
+  }
+  .road_map .heading_wrapper h3 {
+    font-family: "Squada";
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 60px;
+  }
+  .road_map .heading_wrapper p {
+    font-size: 14px;
+    color: #ffffffd6;
+  }
+  .road_map .map_box .content h4 {
+    font-size: 30px;
+    color: #3418fc;
+    font-family: "Poppins";
+    font-weight: 700;
+    background: #f9f928;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 0px;
+  }
+  .road_map .map_box .content h5 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Squada";
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+  .road_map .map_box {
+    max-width: 80%;
+    margin: 0px 0px 0px auto;
+    border: 5px solid #000;
+    position: relative;
+    padding: 20px 35px;
+    margin-bottom: 80px;
+    background-image: url("../img/road-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 3px solid #3418fc;
+  }
+  .road_map .map_box .nft-img {
+    position: absolute;
+    right: 0;
+  }
+  .road_map .map_left .nft-img {
+    right: -65px;
+    top: -22px;
+    background: #000;
+    border-radius: 50%;
+    padding: 20px 20px;
+  }
+  .road_map .map_right .nft-img {
+    left: -55px;
+    right: unset;
+    top: -30px;
+    background: #000;
+    border-radius: 50%;
+    padding: 20px 20px;
+  }
+  .road_map .map_right {
+    text-align: end;
+  }
+  .road_map .map_right .content h4 {
+    margin: 0px 0px 6px auto;
+  }
+  .road_map .map_box .nft-img img {
+    width: 70px;
+  }
+  .road_map .map_box .border-dv {
+    border: 3px solid #000;
+    width: 35px;
+    height: 35px;
+    border-right: 0;
+    border-top: 0;
+    position: absolute;
+    left: -8px;
+    bottom: -8px;
+  }
+  .road_map .right-top {
+    margin-top: 20%;
+  }
+  .road_map .glowing-one span {
+    filter: blur(20px);
+    width: 130px;
+    height: 230px;
+    left: -70px;
+  }
+  .road_map .glowing-two {
+    position: absolute;
+    right: -30px;
+    top: 60px;
+  }
+  .road_map .glowing-two span {
+    filter: blur(20px);
+    width: 180px;
+    height: 190px;
+  }
+  .follow_sec .hat-circle {
+    top: -90px;
+  }
+  @media (max-width: 1100px) {
+    .follow_sec {
+      padding-bottom: 140px;
+    }
+    .follow_sec .follow_box {
+      padding: 40px 60px;
+      background-position: bottom;
+    }
+    .follow_sec .hat-circle {
+      top: -110px;
+      left: 70px;
+    }
+    .road_map .heading_wrapper h3 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .road_map .map_box {
+      max-width: 90%;
+    }
+  }
+  @media (max-width: 991px) {
+    .follow_sec {
+      padding-bottom: 80px;
+    }
+    .follow_sec .follow_box {
+      padding: 40px 60px;
+      background-position: right;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/follow-back.png");
+    }
+    .road_map .heading_wrapper h3 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    .road_map .map_box {
+      max-width: 60%;
+      margin: 0px auto 50px;
+    }
+  }
+  @media (max-width: 575px) {
+    .road_map .glowing {
+      display: none;
+    }
+    .road_map .heading_wrapper {
+      max-width: 100%;
+    }
+    .road_map .heading_wrapper h2 {
+      line-height: 50px;
+      font-size: 50px;
+    }
+    .road_map .map_box {
+      max-width: 80%;
+      margin: 0px auto 50px;
+      padding: 11px 15px;
+    }
+    .road_map .map_box .content h5 {
+      font-size: 23px;
+      line-height: 30px;
+      position: relative;
+      z-index: 9;
+    }
+    .follow_sec .follow_box {
+      padding: 30px 10px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../img/follow-back.png");
+    }
+    .follow_sec .glowing {
+      display: none;
+    }
+    .follow_sec .hat-circle {
+      display: none;
+    }
+    .road_map {
+      padding: 70px 0px 30px;
+    }
+  }
+  /* Roadmap Css End Here */
+  

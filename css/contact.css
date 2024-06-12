@@ -1,0 +1,289 @@
+/* Contact Css Start Here */
+.contact_sec {
+    padding: 10rem 0;
+  }
+  .contact_sec .glowing-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .glowing-left {
+    z-index: 9;
+  }
+  .glowing-left span {
+    filter: blur(40px);
+    width: 150px;
+    height: 150px;
+    left: -70px;
+    top: 12rem;
+  }
+  .contact_sec .contact-info-box {
+    background: #3418fc;
+    border-radius: 10px;
+    padding: 30px 30px 80px;
+  }
+  .contact_sec .contact-info-box .heading-wrapper {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .contact_sec .contact-info-box h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #f9f928;
+    line-height: 26px;
+    letter-spacing: 2px;
+  }
+  .contact_sec .contact-info-box .heading-wrapper h3 {
+    font-size: 50px;
+    font-family: "Squada";
+    line-height: 50px;
+    color: #fff;
+    margin: 0;
+  }
+  .contact_sec .contact-info-box .heading-wrapper p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffffd4;
+  }
+  .contact_sec .contact-info-box ul.info {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .contact_sec .contact-info-box ul.info li {
+    display: flex;
+    align-items: center;
+    background: #0530a1;
+    margin-bottom: 20px;
+    padding: 22px 30px;
+    box-shadow: inset 0px 0px 10px #00000054;
+  }
+  .contact_sec .contact-info-box ul.info li .icon-box {
+    width: 90px;
+  }
+  .contact_sec .contact-info-box ul.info li .icon-box img {
+    width: 50px;
+  }
+  .contact_sec ul.info li .txt h3 {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Squada";
+  }
+  .contact_sec ul.info li .txt a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .contact_sec .contact-form-box {
+    height: 100%;
+    border-right: 1px solid #fff;
+    padding: 0 51px 0 30px;
+    background-image: url("../img/contact-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  .contact_sec .contact-form-box .heading-wrapper {
+    margin-bottom: 40px;
+  }
+  .contact_sec .contact-form-box .heading-wrapper h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #f9f928;
+    line-height: 26px;
+    letter-spacing: 2px;
+    z-index: 9;
+    position: relative;
+  }
+  .contact_sec .contact-form-box .heading-wrapper h2 {
+    color: #fff;
+    line-height: 60px;
+    position: relative;
+    z-index: 2;
+  }
+  .contact_sec .contact-form-box .heading-wrapper p {
+    color: #ffffffbd;
+    font-size: 14px;
+  }
+  .contact_sec .contact-form-box .form-group label {
+    font-size: 15px;
+    color: #fff;
+    line-height: 35px;
+  }
+  .contact_sec .contact-form-box .form-group .form-control {
+    border: 1px solid #ffffff;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 15px;
+  }
+  .contact_sec .contact-form-box .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  .contact_sec .contact-form-box .form-group .form-control::placeholder {
+    color: #ddddddd9;
+    font-size: 12px;
+  }
+  .contact_sec .contact-form-box .form-group {
+    margin-bottom: 20px;
+  }
+  .contact_sec .contact-form-box .button-group {
+    margin-top: 24px;
+    text-align: end;
+  }
+  .contact_sec .contact-form-box .glowing-one {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .contact_sec .contact-form-box .glowing {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .contact_sec .contact-form-box .glowing span {
+    filter: blur(41px);
+  }
+  @media (max-width: 1100px) {
+    .contact_sec .contact-info-box .heading-wrapper h3 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .contact_sec .contact-form-box .heading-wrapper h2 {
+      line-height: 50px;
+      font-size: 60px;
+    }
+    .buy-btn.blue span.svg-icon {
+      padding: 11px 8px 12px;
+    }
+    .contact_sec .contact-info-box ul.info li {
+      padding: 22px 10px;
+    }
+    .contact_sec .contact-info-box ul.info li .icon-box {
+      width: 60px;
+    }
+    .benefits_sec .hat-circle {
+      left: 80px;
+    }
+  }
+  /* Contact Css End Here */
+  
+  /* Newsletter Sec Css Start Here */
+  .benefits_sec {
+    padding: 40px 0 200px;
+  }
+  .benefits_sec .benefit_box {
+    background: url("../img/newsletter-back.png");
+    padding: 50px 0;
+  }
+  .benefits_sec .content-wrapper {
+    max-width: 90%;
+  }
+  .benefits_sec .content-wrapper .heading-wrapper h2 {
+    line-height: 50px;
+    margin: 0;
+    text-shadow: 0 4px #0000003d;
+  }
+  .benefits_sec form {
+    display: flex;
+    position: relative;
+  }
+  .benefits_sec form .form-group {
+    flex: 1;
+  }
+  .benefits_sec form .form-group .form-control {
+    border: 3px solid #ffffff;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 14px;
+    color: #bbbbbb;
+    font-size: 14px;
+  }
+  .benefits_sec form .form-group .form-control::placeholder {
+    color: #bbbbbb;
+  }
+  .benefits_sec form .button-group {
+    position: absolute;
+    right: 8px;
+    bottom: 14px;
+  }
+  .benefits_sec form .button-group .buy-btn .txt {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 1100px) {
+    .benefits_sec {
+      padding: 40px 0 150px;
+    }
+    .benefits_sec .benefit_box {
+      background: url("../img/newsletter-back.png");
+      background-size: cover;
+    }
+    .benefits_sec .content-wrapper .heading-wrapper h2 {
+      line-height: 50px;
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 991px) {
+    .contact_sec .contact-form-box {
+      border-right: 0;
+      padding: 30px 0px 0 0px;
+      background-image: none;
+    }
+    .contact_sec .glowing {
+      display: none;
+    }
+  }
+  @media (max-width: 575px) {
+    .contact_sec {
+      padding: 80px 0 20px;
+    }
+    .contact_sec .contact-info-box {
+      padding: 30px 30px 40px;
+    }
+    .contact_sec .contact-form-box .heading-wrapper h2 {
+      line-height: 40px;
+      font-size: 40px;
+    }
+    .contact_sec .contact-form-box .button-group {
+      text-align: left;
+    }
+    .benefits_sec {
+      padding: 40px 0 70px;
+    }
+    .benefits_sec .benefit_box {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/newsletter-back.png");
+      padding: 30px 20px;
+    }
+    .benefits_sec .content-wrapper {
+      max-width: 100%;
+    }
+    .benefits_sec .content-wrapper .heading-wrapper h4 {
+      letter-spacing: 2px;
+    }
+    .buy-btn span.txt {
+      padding: 13px 20px;
+    }
+    .benefits_sec .hat-circle {
+      display: none;
+    }
+    .benefits_sec form .button-group {
+      position: unset;
+    }
+    .benefits_sec form {
+      display: block;
+    }
+    .benefits_sec form .button-group {
+      position: unset;
+      margin-top: 20px;
+    }
+  }
+  /* Newsletter Sec Css End Here */
+  
